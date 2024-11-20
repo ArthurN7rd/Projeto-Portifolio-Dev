@@ -31,5 +31,36 @@
 
     --font-family-mavenpro: "Maven Pro", sans-serif;
     --text-md: 16px/140% var(--font-family-mavenpro);
-    --text-sm: 14/140% var(--font-family-mavenpro);
+    --text-sm: 14px/140% var(--font-family-mavenpro);
+}
+
+body {
+    color: var(--gray-400);
+    background-color: var(--gray-200);
+    background-image: url(../Asset/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font: var(--font-family-asap);   
+    color: var(--gray-600);
+}
+
+h3{
+    font: var(--subtitulo);
+}
+
+p{
+    font: var(--font-family-mavenpro);
+}
+
+.container {
+    max-width: 1040px;
+    margin-inline: auto;
 }

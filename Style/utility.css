@@ -1,0 +1,30 @@
+/* Utility-first */
+.grid{
+    display: grid;
+}
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+
+.tag{
+    display: flex;
+    text-align: center;
+    gap: 10.25px;
+    background-color: var(--gray-300) ;
+    width: 114px;
+    height: 40px;
+    border-radius: 10%;/* Tag */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+}
+
+.flex{
+    display: flex;
+}

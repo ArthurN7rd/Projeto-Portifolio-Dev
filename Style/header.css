@@ -1,0 +1,51 @@
+.top{
+    
+    section:nth-child(1){
+        justify-self: center;
+    }
+
+    section:nth-child(2){
+        justify-content: center;
+    }
+
+    section:nth-child(3){
+        justify-content: center;
+    }
+}
+
+
+#avatar{
+    
+    width: 112px;
+    div{
+        display: flex;
+        align-items: center;
+    }
+
+    div:nth-child(1){
+        position: absolute;
+    }
+
+    div:nth-child(2){
+        position: relative;
+        margin-left: 60%;
+        margin-top: 60%;
+    }
+}
+.foto{
+    img{
+        width: 96px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+        padding: 4px;
+        border: 2px solid var(--red-color);
+    }
+}
+
+.code{
+    img{
+        width: 32px;
+        color:var(--green-color);
+    }
+}
