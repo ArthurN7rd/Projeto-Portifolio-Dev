@@ -56,8 +56,27 @@ h3{
     font: var(--subtitulo);
 }
 
+.h2-alternativo{
+    color: var(--gray-600);
+    font:var(--title-sm)
+}
+
+.title-secundario{
+    text-align: center;
+    h2{
+        font: var(--title-md);
+        color: var(--gray-600);
+        padding-bottom:56px;
+    }
+    h3{
+        font: var(--subtitulo);
+        color: var(--red-color);
+        padding-bottom:8px;
+    }
+}
+
 p{
-    font: var(--font-family-mavenpro);
+    font: var(--text-sm);
 }
 
 .container {

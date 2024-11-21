@@ -31,18 +31,8 @@
         gap: 24px;
     }
 
-    .text-projetos{
-        text-align: center;
-        h2{
-            font: var(--title-md);
-            color: var(--gray-600);
-            padding-bottom:56px;
-        }
-        h3{
-            font: var(--subtitulo);
-            color: var(--red-color);
-            padding: 72px 0 8px 0;
-        }
+    h3{
+        padding-top: 72px;
     }
 
     img{
@@ -62,13 +52,41 @@
             place-content: center
         }
 
-        h2{
-            color: var(--gray-600);
-            font:var(--title-sm)
+    }
+}
+
+#portifolio{
+    width: 100%;
+    background-color: var(--gray-100);
+    
+    .expositor{
+            grid-template-columns: repeat(3, 330px);
+            gap: 24px;
+
+            padding-bottom: 120px;
         }
 
-        p{
-            font: var(--text-sm);
+        .expositores{
+            border: solid var(--gray-200);
+            border-radius: 12px;
+            padding:0 140px 0 140;
+            height: 170px;
+
+            img{
+                padding: 20px 212px 20px 20px;
+            }
+
+            h2{
+                padding: 0 20px 8px 20px;
+            }
+
+            p{
+                padding: 0 20px 0 20px;
+            }
+
         }
+
+    h3{
+        padding-top: 88px;
     }
 }
