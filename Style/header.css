@@ -15,7 +15,8 @@
 
 
 #avatar{
-    
+    padding-top: 120px;
+    padding-bottom: 56px;
     width: 112px;
     div{
         display: flex;
@@ -48,4 +49,104 @@
         width: 32px;
         color:var(--green-color);
     }
+}
+
+#title-text{
+    padding-bottom: 80px;
+
+    h1{
+        padding-bottom: 20px;
+    }
+
+    h3{
+        padding-bottom: 8px;
+    }
+}
+
+#tags{
+    padding-bottom: 94px;
+    display: flex;
+    gap: 16px;
+
+    div:nth-child(1){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+
+        width: 114px;
+        height: 40px;
+        border-radius: 999px;
+    }
+
+    div:nth-child(2){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+
+        width: 105px;
+        height: 40px;
+        border-radius: 999px;  
+    }
+
+    div:nth-child(3){
+        width: 92px;
+        height: 40px;
+        border-radius: 999px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+    }
+
+    div:nth-child(4){
+        width: 138px;
+        height: 40px;
+        border-radius: 999px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+    }
+
+    div:nth-child(5){
+        width: 106px;
+        height: 40px;
+        border-radius: 999px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+    }
+
+    div:nth-child(6){
+        width: 119px;
+        height: 40px;
+        border-radius: 999px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+    }
+}
+
+.arrow{
+    padding-bottom: 57px;
 }
