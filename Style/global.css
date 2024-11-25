@@ -66,12 +66,15 @@ h3{
     h2{
         font: var(--title-md);
         color: var(--gray-600);
-        padding-bottom:56px;
     }
     h3{
         font: var(--subtitulo);
         color: var(--red-color);
         padding-bottom:8px;
+    }
+
+    p{
+        font: var(--text-sm);
     }
 }
 

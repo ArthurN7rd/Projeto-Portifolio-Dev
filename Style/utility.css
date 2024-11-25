@@ -25,6 +25,8 @@
     
 }
 
-.flex{
-    display: flex;
+.padding-56{
+    h2{
+        padding-bottom:56px;
+    }
 }
