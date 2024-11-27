@@ -44,3 +44,7 @@
 .relative{
     position: relative;
 }
+
+.float-none{
+    float: none;
+}

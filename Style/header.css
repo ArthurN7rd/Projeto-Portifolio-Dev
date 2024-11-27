@@ -64,7 +64,6 @@
 }
 
 #tags{
-    padding-bottom: 94px;
     display: flex;
     gap: 16px;
 
@@ -148,5 +147,7 @@
 }
 
 .arrow{
+    padding-top: 94px;
     padding-bottom: 60.5px;
+    padding-left: 667px;
 }
