@@ -86,7 +86,56 @@
 
         }
 
+        h3{
+            padding-top: 88px;
+        }
+    }
+
+#contato{
+    padding: 128px 0 200px 0;
+    
     h3{
-        padding-top: 88px;
+        color: var(--purple-color);
+    }
+    p{
+        padding-bottom: 48px;
+    }
+    img{
+        width: 28px;
+        aspect-ratio: 1/1;
+    }
+
+    .link{
+        gap: 16px;
+        justify-items: center;
+    }
+
+    .links{
+        background-color: var(--gray-300);
+        width: 400px;
+        height: 68px;
+        border-radius: 8px;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 20px 24px;
+
+        .iconame{
+            display: flex;
+            align-items: center;
+            gap: 14.62px;
+        }
+
+        img{
+            width: 28px;
+            aspect-ratio: 1/1;
+        }
+
+        .img-alternativo{
+            width: 20px;
+            aspect-ratio: 1/1;
+    }
+
     }
 }
