@@ -36,15 +36,3 @@
         padding-bottom:200px;
     }
 }
-
-.absolute{
-    position: absolute;
-}
-
-.relative{
-    position: relative;
-}
-
-.float-none{
-    float: none;
-}

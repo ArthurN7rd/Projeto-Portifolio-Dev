@@ -1,4 +1,21 @@
-#top{
+#app{
+    display: grid;
+
+    height: 100vh;
+    width: 100vh;
+    grid-template-areas: 
+    "intro intro"
+    "projects projects"
+    "services services"
+    "contact contact";
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#intro{
+    grid-area: intro;
     text-align: center;
 
     h1{
@@ -20,7 +37,8 @@
     
 }
 
-#projetos{
+#projects{
+    grid-area: projects;
     padding-bottom: 144px;
     
     .grid{
@@ -52,9 +70,15 @@
         }
 
     }
+
+    .aprsentação:hover{
+        border:solid 2px var(--gray-400);
+        transition: border 0.6s;
+    }
 }
 
-#portifolio{
+#services{
+    grid-area: services;
     width: 100%;
     background-color: var(--gray-100);
     
@@ -88,15 +112,16 @@
         h3{
             padding-top: 88px;
         }
-    }
+}
 
-#contato{
+#contact{
+    grid-area: contact;
     padding: 128px 0 200px 0;
     
     h3{
         color: var(--purple-color);
     }
-    p{
+    .title-secundario{
         padding-bottom: 48px;
     }
     img{
@@ -109,7 +134,8 @@
         justify-items: center;
     }
 
-    .links{
+    button{
+        border: 0;
         background-color: var(--gray-300);
         width: 400px;
         height: 68px;
@@ -120,21 +146,118 @@
         align-items: center;
         padding-inline: 20px 24px;
 
+        p{
+            color: var(--gray-500);
+            font: var(--text-md);
+            font-weight: 500;
+        }
+
         .iconame{
             display: flex;
             align-items: center;
             gap: 14.62px;
         }
 
-        img{
+        .img{
             width: 28px;
-            aspect-ratio: 1/1;
+            height: 28px;
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
         }
 
-        .img-alternativo{
+        .img-arrow{
             width: 20px;
-            aspect-ratio: 1/1;
+            height: 20px;
+            background: url("../Asset/icons/footer/ArrowUpRight.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }  
+
+    }
+    
+    .linkedin{
+        .img{
+            background: url("../Asset/icons/footer/linkedin-link.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
     }
 
+    .instagram{
+        .img{
+            background: url("../Asset/icons/footer/instagram-link.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
+    }
+
+    .github{
+        .img{
+            background: url("../Asset/icons/footer/gitHub-link.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
+    }
+
+    .e-mail{
+        .img{
+            background: url("../Asset/icons/footer/EnvelopeSimple.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
+    }
+
+    /* Hover */
+    button:hover{
+        .img-arrow{
+            width: 20px;
+            height: 20px;
+            background: url("../Asset/icons/footer/ArrowUpRightHouver.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }  
+    }
+    
+    button:hover .linkedin{
+        .img{
+            background: url("../Asset/icons/footer/linkedin-link-houver.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
+    }
+
+    button:hover .instagram{
+        .img{
+            background: url("../Asset/icons/footer/instagram-link-houver.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
+    }
+
+    button:hover .github{
+        .img{
+            background: url("../Asset/icons/footer/gitHub-link-houver.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
+    }
+
+    button:hover .e-mail{
+        .img{
+            background: url("../Asset/icons/footer/EnvelopeSimple-houver.svg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-position: center;
+        }
     }
 }
